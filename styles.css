@@ -1,0 +1,59 @@
+/* General styling for the entire page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #001f3f; /* Dark navy for the starry night vibe */
+    color: #ffffff; /* White text for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+#header {
+    text-align: center;
+    padding: 20px;
+    background-color: #003366; /* Deeper navy tone */
+}
+
+/* Navigation styling */
+#navigation {
+    padding: 10px;
+    background-color: #003366;
+    text-align: center;
+}
+
+#navigation a {
+    color: #ffffff; /* White links for contrast */
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+#navigation a:hover {
+    text-decoration: underline; /* Hover effect for links */
+}
+
+/* Main content styling */
+#main-content {
+    padding: 20px;
+}
+
+ol li {
+    margin: 10px 0;
+}
+
+ul li {
+    list-style-type: circle; /* Circular bullets for unordered lists */
+}
+
+/* Styling for YouTube and Tableau sections */
+#youtube-video, #tableau-graph {
+    padding: 20px;
+}
+
+#youtube-video h2, #tableau-graph h2 {
+    color: #ffffff; /* Bright teal accents for section headers */
+}
+
+/* Div positioning for different blocks */
+#header, #navigation, #main-content, #youtube-video, #tableau-graph {
+    margin-bottom: 20px; /* Space between sections */
+}

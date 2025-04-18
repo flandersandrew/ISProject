@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2014-2015 NBA Season Recap</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="index.html" style="color: white;">Professional Pages</a>
+    <div id="header">
+        <h1>2014-2015 NBA Season Recap</h1>
+        <p>NBA Champion: Golden State Warriors</p>
+    </div>
+
+    <div id="navigation">
+        <a href="#youtube-video">Top 10 Plays</a>
+        <a href="#tableau-graph">Season Shot Chart Data</a> <!-- On-page anchor -->
+    </div>
+
+    <div id="main-content">
+        <h2 id="standings">Eastern Conference Playoff Standings:</h2>
+        <ol>
+            <li>Atlanta Hawks
+                <ul>
+                    <li>Leading Scorer: Paul Millsap</li>
+                </ul>
+            </li>
+            <li>Cleveland Cavaliers
+                <ul>
+                    <li>Leading Scorer: Lebron James</li>
+                </ul>
+            </li>
+            <li>Chicago Bulls
+                <ul>
+                    <li>Leading Scorer: Jimmy Butler III</li>
+                </ul>
+            </li>
+            <li>Toronto Raptors
+                <ul>
+                    <li>Leading Scorer: DeMar DeRozan</li>
+                </ul>
+            </li>
+            <li>Washington Wizards
+                <ul>
+                    <li>Leading Scorer: John Wall</li>
+                </ul>
+            </li>
+            <li>Milwaukee Bucks
+                <ul>
+                    <li>Leading Scorer: Michael Carter-Williams</li>
+                </ul>
+            </li>
+            <li>Boston Celtics
+                <ul>
+                    <li>Leading Scorer: Isaiah Thomas</li>
+                </ul>
+            </li>
+            <li>Brooklyn Nets
+                <ul>
+                    <li>Leading Scorer: Brook Lopez</li>
+                </ul>
+            </li>
+        </ol>
+        <br>
+        <h2 id="standings">Western Conference Playoff Standings:</h2>
+        <ol>
+            <li>Golden State Warriors
+                <ul>
+                    <li>Leading Scorer: Stephen Curry</li>
+                </ul>
+            </li>
+            <li>Houston Rockets
+                <ul>
+                    <li>Leading Scorer: James Harden</li>
+                </ul>
+            </li>
+            <li>Los Angelos Clippers
+                <ul>
+                    <li>Leading Scorer: Blake Griffin</li>
+                </ul>
+            </li>
+            <li>Portland Trail Blazers
+                <ul>
+                    <li>Leading Scorer: LaMarcus Aldridge</li>
+                </ul>
+            </li>
+            <li>Memphis Grizzlies
+                <ul>
+                    <li>Leading Scorer: Marc Gasol</li>
+                </ul>
+            </li>
+            <li>San Antonio Spurs
+                <ul>
+                    <li>Leading Scorer: Kawhi Leonard</li>
+                </ul>
+            </li>
+            <li>Dallas Mavericks
+                <ul>
+                    <li>Leading Scorer: Monta Ellis</li>
+                </ul>
+            </li>
+            <li>New Orleans Pelicans
+                <ul>
+                    <li>Leading Scorer: Anthony Davis</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <div id="youtube-video">
+        <h2>Top 10 Plays of the Season</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KmRmwTzqGGc?si=HvBgi3L-9O6vM26e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div id="tableau-graph">
+        <h2>Interactive Shot Chart Data</h2>
+        <div class='tableauPlaceholder' id='viz1744934449639' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='Shot Chart' src='https://public.tableau.com/static/images/NB/NBAShotChart/ShotChart/1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='NBAShotChart/ShotChart' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='no' />
+                <param name='static_image' value='https://public.tableau.com/static/images/NB/NBAShotChart/ShotChart/1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+            </object>
+        </div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1744934449639');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width='1000px';
+            vizElement.style.height='650px';
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </div>
+</body>
+</html>
